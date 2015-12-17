@@ -1,0 +1,62 @@
+﻿Сборка начата 16.12.2015 23:38:49.
+     1>Проект "E:\work\2 курс, 1 семестр\ООП\ЛР №10-11\proect_3\proect_3\proect_3.vcxproj" в узле 2 (целевые объекты Build).
+     1>ClCompile:
+         D:\visual studio\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yc"stdafx.h" /Fp"Debug\proect_3.pch" /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         D:\visual studio\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"stdafx.h" /Fp"Debug\proect_3.pch" /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt proect_3.cpp Vectr.cpp
+         Vectr.cpp
+         proect_3.cpp
+     1>e:\work\2 курс, 1 семестр\ооп\лр №10-11\proect_3\proect_3\proect_3.cpp(17): warning C4800: int: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>e:\work\2 курс, 1 семестр\ооп\лр №10-11\proect_3\proect_3\proect_3.cpp(24): warning C4800: int: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>e:\work\2 курс, 1 семестр\ооп\лр №10-11\proect_3\proect_3\proect_3.cpp(54): warning C4018: <: несоответствие типов со знаком и без знака
+     1>e:\work\2 курс, 1 семестр\ооп\лр №10-11\proect_3\proect_3\proect_3.cpp(60): warning C4018: <: несоответствие типов со знаком и без знака
+     1>e:\work\2 курс, 1 семестр\ооп\лр №10-11\proect_3\proect_3\proect_3.cpp(79): warning C4018: <: несоответствие типов со знаком и без знака
+     1>e:\work\2 курс, 1 семестр\ооп\лр №10-11\proect_3\proect_3\proect_3.cpp(84): warning C4018: <: несоответствие типов со знаком и без знака
+     1>d:\visual studio\vc\include\xstddef(240): warning C4800: int: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+         d:\visual studio\vc\include\xstddef(239): note: при компиляции функции-члена "<Нет данных>" класса <Нет данных>
+         d:\visual studio\vc\include\xutility(739): note: см. ссылку на создание экземпляров функции шаблон при компиляции "bool std::less<_Kty>::operator ()(const _Ty &,const _Ty &) const"
+                 with
+                 [
+                     _Kty=Vector,
+                     _Ty=Vector
+                 ]
+         d:\visual studio\vc\include\type_traits(522): note: см. ссылку на создание экземпляров класса шаблон при компиляции "std::less<_Kty>"
+                 with
+                 [
+                     _Kty=Vector
+                 ]
+         d:\visual studio\vc\include\xutility(264): note: см. ссылку на создание экземпляров класса шаблон при компиляции "std::is_empty<_Ty1>"
+                 with
+                 [
+                     _Ty1=std::less<Vector>
+                 ]
+         d:\visual studio\vc\include\xtree(965): note: см. ссылку на создание экземпляров класса шаблон при компиляции "std::_Tree_comp_alloc<_Traits>"
+                 with
+                 [
+                     _Traits=std::_Tset_traits<Vector,std::less<Vector>,std::allocator<Vector>,false>
+                 ]
+         d:\visual studio\vc\include\set(44): note: см. ссылку на создание экземпляров класса шаблон при компиляции "std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>"
+                 with
+                 [
+                     _Kty=Vector,
+                     _Pr=std::less<Vector>,
+                     _Alloc=std::allocator<Vector>
+                 ]
+         e:\work\2 курс, 1 семестр\ооп\лр №10-11\proect_3\proect_3\proect_3.cpp(63): note: см. ссылку на создание экземпляров класса шаблон при компиляции "std::set<Vector,std::less<_Kty>,std::allocator<_Ty>>"
+                 with
+                 [
+                     _Kty=Vector,
+                     _Ty=Vector
+                 ]
+         Создание кода...
+       Link:
+         D:\visual studio\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\work\2 курс, 1 семестр\ООП\ЛР №10-11\proect_3\Debug\proect_3.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"E:\work\2 курс, 1 семестр\ООП\ЛР №10-11\proect_3\Debug\proect_3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\work\2 курс, 1 семестр\ООП\ЛР №10-11\proect_3\Debug\proect_3.lib" /MACHINE:X86 Debug\proect_3.obj
+         Debug\stdafx.obj
+         Debug\Vectr.obj
+         LINK : не найден или не выполнена сборка E:\work\2 курс, 1 семестр\ООП\ЛР №10-11\proect_3\Debug\proect_3.exe при последней инкрементной компоновке; выполняется полная компоновка
+         proect_3.vcxproj -> E:\work\2 курс, 1 семестр\ООП\ЛР №10-11\proect_3\Debug\proect_3.exe
+     1>Сборка проекта "E:\work\2 курс, 1 семестр\ООП\ЛР №10-11\proect_3\proect_3\proect_3.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+Затраченное время: 00:00:10.17
